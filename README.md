@@ -1,31 +1,16 @@
-# Neural Graph Collaborative Filtering
-This is our Tensorflow implementation for the paper:
+# Neural Graph Collaborative Filtering - utilisation pour l'UE RCP217 du CNAM
+Papier initial:
 
 >Xiang Wang, Xiangnan He, Meng Wang, Fuli Feng, and Tat-Seng Chua (2019). Neural Graph Collaborative Filtering, [Paper in ACM DL](https://dl.acm.org/citation.cfm?doid=3331184.3331267) or [Paper in arXiv](https://arxiv.org/abs/1905.08108). In SIGIR'19, Paris, France, July 21-25, 2019.
 
 Author: Dr. Xiang Wang (xiangwang at u.nus.edu)
 
 ## Introduction
-Neural Graph Collaborative Filtering (NGCF) is a new recommendation framework based on graph neural network, explicitly encoding the collaborative signal in the form of high-order connectivities in user-item bipartite graph by performing embedding propagation.
+Voir le readme initial ici : README_initial.md
 
-## Citation 
-If you want to use our codes and datasets in your research, please cite:
-```
-@inproceedings{NGCF19,
-  author    = {Xiang Wang and
-               Xiangnan He and
-               Meng Wang and
-               Fuli Feng and
-               Tat{-}Seng Chua},
-  title     = {Neural Graph Collaborative Filtering},
-  booktitle = {Proceedings of the 42nd International {ACM} {SIGIR} Conference on
-               Research and Development in Information Retrieval, {SIGIR} 2019, Paris,
-               France, July 21-25, 2019.},
-  pages     = {165--174},
-  year      = {2019},
-}
-```
-## Environment Requirement
+
+
+## Utilisation avec Docker
 The code has been tested running under Python 3.6.5. The required packages are as follows:
 * tensorflow == 1.8.0
 * numpy == 1.14.3
