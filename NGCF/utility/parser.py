@@ -65,4 +65,8 @@ def parse_args():
 
     parser.add_argument('--report', type=int, default=0,
                         help='0: Disable performance report w.r.t. sparsity levels, 1: Show performance report w.r.t. sparsity levels')
+    
+    parser.add_argument('--keep_drop', type=int, default=0,
+                        help='values between 0-1 . Same shape as layer size')
+
     return parser.parse_args()

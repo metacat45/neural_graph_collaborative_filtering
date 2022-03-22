@@ -38,6 +38,8 @@ class NMF(object):
 
         self.verbose = args.verbose
 
+        self.keep_drop = eval(args.keep_drop)
+
         # placeholder definition
         self.users = tf.placeholder(tf.int32, shape=(None))
         self.pos_items = tf.placeholder(tf.int32, shape=(None))
